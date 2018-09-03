@@ -1,0 +1,11 @@
+<img [src]="imageSource" style="height: 200px;">
+<blockquote><strong>Image Source:</strong>{{imageSource}}</blockquote>
+<form>
+    <fieldset>
+        <legend>Enter URL of Image</legend>
+        <input type="text" name="source" [(ngModel)]="potentialImageSource" required>
+    </fieldset>
+    <fieldset>
+        <button (click)="save()">Save</button>
+    </fieldset>
+</form>
