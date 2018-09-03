@@ -29,8 +29,5 @@
     "concurrently": "^3.0.0",
     "lite-server": "^2.2.2",
     "typescript": "^2.3.4"
-  },
-  "scripts": {
-    "dev": "lite-server"
   }
 }
